@@ -10,4 +10,19 @@
         <% var data = public.partials.speakers["2017"].s1._data.speakers %>
             <%- partial("partials/speakers/2017/s1/speakers", data) %>
     </div>
+
+    <div class="row">
+        <h3>Eventos de 2017</h3>
+        <% var contents = public.partials.speakers["2017"] %>
+            <% for(var i in contents){ %>
+
+                <% for(var j in contents[i]._contents){ %>
+                    <a href="partials/speakers/2017/s1/<%-contents[i]._contents[j] %>">Evento
+                        <%- parseInt(j) + 1 %>
+                    </a>
+
+
+                    <% }%>
+                        <% }%>
+    </div>
 </div>
