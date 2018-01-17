@@ -7,6 +7,7 @@
         </div>
     </div>
     <div class="row">
-        <%- partial("partials/speakers/y2017/s1/speakers", public.partials.speakers.y2017.s1._data.speakers) %>
+        <% var data = public.partials.speakers["2017"].s1._data.speakers %>
+            <%- partial("partials/speakers/2017/s1/speakers", data) %>
     </div>
 </div>
