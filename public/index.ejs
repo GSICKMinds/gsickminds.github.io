@@ -1,0 +1,19 @@
+<nav id="site-nav"
+     class="navbar navbar-fixed-top navbar-custom">
+    <%- partial("partials/nav", public.partials._data.nav) %>
+</nav>
+
+<header id="site-header"
+        class="site-header valign-center">
+    <%- partial("partials/header", public.partials._data.header) %>
+</header>
+
+<section id="schedule"
+         class="section schedule">
+    <%- include("partials/events", public.partials._data.events) %>
+</section>
+
+<section id="about"
+         class="section about">
+    <%- partial("partials/about", public.partials._data.about) %>
+</section>

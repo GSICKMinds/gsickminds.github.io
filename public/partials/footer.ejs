@@ -1,0 +1,30 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+        </div>
+        <div class="col-md-4">
+
+            <%- contact.name %>
+                <br>
+                <%- contact.address %>
+                    <br>
+                    <%- contact.phone %>
+                        <br>
+                        <%- contact.email %>
+        </div>
+
+        <div class="col-md-4">
+            <ul class="social-block">
+                <% for (var j = 0; j < social.length; j++) {%>
+                    <li>
+                        <a target="_blank"
+                           href="<%= social[j].href %>">
+                            <i class="<%= social[j].icon %>"></i>
+                        </a>
+                    </li>
+                    <% } %>
+
+            </ul>
+        </div>
+    </div>
+</div>

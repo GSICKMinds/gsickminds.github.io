@@ -1,0 +1,30 @@
+<html>
+
+<head>
+      <meta charset="UTF-8">
+      <title>Gsickminds</title>
+      <link rel="stylesheet"
+            href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+      <link rel="stylesheet"
+            href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet"
+            href="assets/css/main.css">
+      <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.3/js/bootstrap.min.js"></script>
+
+      <script src="assets/js/main.js"></script>
+</head>
+
+<body>
+
+      <%- yield %>
+
+
+            <footer class="site-footer">
+                  <%- partial("partials/footer", public.partials._data.footer) %>
+            </footer>
+
+
+</body>
+
+</html>
