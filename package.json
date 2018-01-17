@@ -12,7 +12,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "gulp",
-    "compile": "harp compile"
+    "compile": "harp compile",
+    "deploy": "npm run compile && git subtree push --prefix www origin master"
   },
   "author": "",
   "license": "ISC"

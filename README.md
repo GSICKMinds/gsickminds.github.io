@@ -8,3 +8,7 @@ npm run start
 ```
 npm run compile
 ```
+
+```
+npm run deploy
+```
