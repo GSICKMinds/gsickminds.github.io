@@ -1,0 +1,20 @@
+<div class="container">
+
+    <h3>Eventos Anteriores</h3>
+    <% var years = Object.keys(public.partials.speakers) %>
+        <% for(var z in years){ %>
+            <h4>Año
+                <%- years[z] %>
+            </h4>
+            <% var contents = public.partials.speakers[years[z]] %>
+                <% for(var i in contents){ %>
+
+                    <% for(var j in contents[i]._contents){ %>
+                        <a href="partials/speakers/<%- years[z] %>/s1/<%-contents[i]._contents[j] %>">Evento
+                            <%- parseInt(j) + 1 %>
+                        </a>
+
+                        <% }%>
+                            <% }%>
+                                <% }%>
+</div>

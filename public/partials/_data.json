@@ -2,7 +2,18 @@
     "events": {
         "title": "Proximos Eventos"
     },
+    "nav": [
+        {
+            "label": "horarios",
+            "href": "#schedule"
+        },
+        {
+            "label": "Sobre nosotros",
+            "href": "#about"
+        }
+    ],
     "about": {
+        "title": "Sobre nosotros",
         "info": "GSICKMINDS es un evento organizado por el Grupo de seguridad de la Información de A Coruña (GSIC), nacido en 2009 bajo el patrocinio de la Facultad de Informática de A Coruña y la Universidad de A Coruña, con objeto de fomentar el desarrollo de sistemas de información seguros y proponer soluciones que salvaguarden la integridad y confidencialidad de los activos digitales."
     },
     "footer": {
@@ -18,5 +29,10 @@
                 "icon": "fa fa-twitter"
             }
         ]
+    },
+    "venue": {
+        "title": "Localización",
+        "address": "",
+        "googlemaps": ""
     }
 }
