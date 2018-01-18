@@ -11,6 +11,8 @@ html {
 }
 
 body {
+  padding-top: 70px;
+  padding-bottom: 80px;
   color: #4e4e4e;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
@@ -197,6 +199,15 @@ ul li {
 .btn-white:hover, .btn-white:focus {
   color: #000;
   background-color: #fff;
+}
+.btn-transparent {
+  color: #fff;
+  background-color: transparent;
+  border: 2px solid #fff;
+}
+.btn-transparent:hover, .btn-white:focus {
+  color: #fff;
+  background-color: #d7008a;
 }
 
 .btn-rodamina {
@@ -438,9 +449,16 @@ ul li {
  * 6.5 Section: Contribution
  */
 .contribution {
-  text-align: center;
-  color: #fff;
+  
+  
 }
+
+
+
+.inside-box {
+  border-right: 1px solid black;
+}
+
 
 /* 
  * 6.6 Section: Schedule
@@ -578,6 +596,7 @@ ul li {
 
   .section-title {
     margin: 0 0 30px;
+    color: #d7008a;
   }
 
   figure {
@@ -600,9 +619,7 @@ ul li {
 /* 
  * 7.0 Site-footer
  */
- body { padding-bottom: 80px; }
-
-
+ 
 .site-footer {
   position: absolute;
   width: 100%;
