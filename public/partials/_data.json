@@ -5,24 +5,28 @@
     "nav": [
         {
             "label": "Eventos",
-            "href": "#schedule"
+            "href": "/#schedule"
         },
         {
             "label": "Localización",
-            "href": "#location"
+            "href": "/#location"
         },
         {
             "label": "Colabora",
-            "href": "#contribution"
+            "href": "/#contribution"
         },
         {
             "label": "Sobre nosotros",
-            "href": "#about"
+            "href": "/#about"
+        },
+        {
+            "label": "Contacto",
+            "href": "/#contact"
         }
     ],
     "about": {
         "title": "Sobre nosotros",
-        "info": "GSICKMINDS es un evento organizado por el Grupo de seguridad de la Información de A Coruña (GSIC), nacido en 2009 bajo el patrocinio de la Facultad de Informática de A Coruña y la Universidad de A Coruña, con objeto de fomentar el desarrollo de sistemas de información seguros y proponer soluciones que salvaguarden la integridad y confidencialidad de los activos digitales.",
+        "info": "<strong>GSICKMINDS</strong> es un evento organizado por el Grupo de seguridad de la Información de A Coruña (GSIC), <strong>nacido en 2009</strong> bajo el patrocinio de la Facultad de Informática de A Coruña y la Universidad de A Coruña, con objeto de fomentar el desarrollo de sistemas de información seguros y proponer soluciones que salvaguarden la integridad y confidencialidad de los activos digitales.",
         "titleTeam": "Nuestro equipo",
         "team": [
             {
@@ -53,13 +57,7 @@
             "address": "C.P. 15071 A Coruña, España",
             "phone": "(+34) 981 167 000 ext. 1304",
             "email": "info@gsickminds.net"
-        },
-        "social": [
-            {
-                "href": "https://twitter.com/gsickminds",
-                "icon": "fa fa-twitter"
-            }
-        ]
+        }
     },
     "venue": {
         "title": "Localización",
@@ -71,12 +69,25 @@
         "description": "En el Gsic siempre estamos buscando gente enferma. Si quieres participar en nuestra aventura, a continuación te explicamos las maneras para hacerlo.",
         "paperTitle": "Dar una charla",
         "paperIcon": "fa fa-file-text",
-        "sponsor": "Si eres una empresa y quieres patrocinarnos, puedes pedir más información a sponsors@gsickminds.net. Nos pondremos en contacto contigo y te enviaremos un dosier con la información.",
+        "sponsor": "Si eres una empresa y quieres patrocinarnos, puedes pedir más información a <strong>sponsors@gsickminds.net</strong>. Nos pondremos en contacto contigo y te enviaremos un dosier con la información.",
         "sponsorTitle": "Patrocinanos",
         "sponsorIcon": "fa fa-usd",
-        "paper": "Enviamos tu propuesta a cfp@gsickminds.net y nos prondremos en contacto contigo la más pronto posible.",
-        "help": "Si lo que queires es colaborar con nosotros como voluntario enviamos un correo info@gsickminds.net con el asunto voluntario.",
+        "paper": "Enviamos tu propuesta a <strong>cfp@gsickminds.net</strong> y nos prondremos en contacto contigo la más pronto posible.",
+        "help": "Si lo que queires es colaborar con nosotros como voluntario enviamos un correo <strong>info@gsickminds.net</strong> con el asunto voluntario.",
         "helpTitle": "Colcabora con nosotros",
         "helpIcon": "fa fa-users"
+    },
+    "contact": {
+        "title": "Contáctanos",
+        "social": [
+            {
+                "href": "https://twitter.com/gsickminds",
+                "icon": "fa fa-twitter"
+            },
+            {
+                "href": "mailto:info@gisckminds.net",
+                "icon": "fa fa-envelope"
+            }
+        ]
     }
 }

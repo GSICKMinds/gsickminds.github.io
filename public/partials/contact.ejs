@@ -1,0 +1,23 @@
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-sm-12">
+            <h3 class="section-title">
+                <%- title %>
+            </h3>
+            <div class="text-center">
+
+                <ul class="social-block">
+                    <% for (var j = 0; j < social.length; j++) {%>
+                        <a target="_blank"
+                           href="<%- social[j].href %>">
+                            <span class="fa-stack fa-3x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="<%- social[j].icon %> fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                        <% }%>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

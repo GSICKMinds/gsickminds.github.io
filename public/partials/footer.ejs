@@ -7,7 +7,7 @@
                  src="assets/images/logos/gsic.png">
 
         </div>
-        <div class="col-xs-6 col-sm-8">
+        <div class="col-xs-8 col-sm-10">
 
             <%- contact.name %>
                 <br>
@@ -16,20 +16,6 @@
                     <%- contact.phone %>
                         <br>
                         <%- contact.email %>
-        </div>
-
-        <div class="col-xs-2 col-sm-2">
-            <ul class="social-block">
-                <% for (var j = 0; j < social.length; j++) {%>
-                    <li>
-                        <a target="_blank"
-                           href="<%= social[j].href %>">
-                            <i class="<%= social[j].icon %>"></i>
-                        </a>
-                    </li>
-                    <% } %>
-
-            </ul>
         </div>
     </div>
 </div>

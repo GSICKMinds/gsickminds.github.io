@@ -31,7 +31,7 @@ html {
 }
 
 body {
-  padding-top: 40px;
+  padding-top: 90px;
   padding-bottom: 80px;
   color: #4e4e4e;
   font-family: 'Roboto', sans-serif;
@@ -158,7 +158,7 @@ ul li {
 }
 
 .section {
-  padding: 70px 0;
+  padding: 40px 0;
 }
 
 .section-title {
@@ -282,16 +282,10 @@ ul li {
   background-color: rgba(0, 0, 0, 0.7);
 }
 
-@media (min-width: 768px) {
-  body{
-    padding-top: 70px;
-  }
+@media (min-width: 768px) {  
   
-  .section {
-    padding: 90px 0;
-  }
-
   .section-title {
+    padding-top: 40px;
     color: #d7008a;
     letter-spacing: 1px;
     margin: 0 0 60px;
@@ -630,6 +624,7 @@ ul li {
 
 
 @media (min-width: 768px) {
+
   .inside-box {
     border: none;
     border-right: 1px solid black
@@ -653,6 +648,10 @@ ul li {
   }
 }
 @media (min-width: 992px) {
+  .navbar {
+    min-height: 70px;
+    height: 100px;
+  }
   .schedule-box {
     margin: 0;
   }
