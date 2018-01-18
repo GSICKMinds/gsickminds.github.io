@@ -1,14 +1,16 @@
 <div class="container">
     <div class="row">
+
         <div class="col-sm-3">
             <h3 class="section-title">
                 <%- title %>
             </h3>
-            <address>
-                <p>
-                    <%- address %>
-                </p>
-            </address>
+            <% if (googlemaps !== "") {%>
+                <address>
+                    <p>
+                        <%- address %>
+                    </p>
+                </address>
         </div>
         <div class="col-sm-9">
             <iframe src="<%- googlemaps %>"
@@ -18,5 +20,13 @@
                     style="border:0"
                     allowfullscreen></iframe>
         </div>
+        <% } else { %>
+            <address>
+                <p>
+                    Sitio por concretar
+                </p>
+            </address>
     </div>
+    <% } %>
+</div>
 </div>
