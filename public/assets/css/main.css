@@ -9,9 +9,29 @@ html {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
 }
+.navbar-brand img{
+  max-height: 90px;
+  min-height: 40px;
+}
+.navbar {
+  min-height: 70px;
+  height: 10%;
+}
+.navbar-inverse {
+  background-color: #d7008a
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: #000
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+  border-color: transparent;
+  background-color: #d7008a
+}
 
 body {
-  padding-top: 70px;
+  padding-top: 40px;
   padding-bottom: 80px;
   color: #4e4e4e;
   font-family: 'Roboto', sans-serif;
@@ -142,7 +162,7 @@ ul li {
 }
 
 .section-title {
-  color: #313131;
+  color: #d7008a;
   letter-spacing: 1px;
   margin: 0 0 20px;
   text-transform: uppercase;
@@ -263,12 +283,16 @@ ul li {
 }
 
 @media (min-width: 768px) {
+  body{
+    padding-top: 70px;
+  }
+  
   .section {
     padding: 90px 0;
   }
 
   .section-title {
-    color: #313131;
+    color: #d7008a;
     letter-spacing: 1px;
     margin: 0 0 60px;
     text-transform: uppercase;
@@ -282,7 +306,7 @@ ul li {
   border: 0;
   margin: 0;
   padding-top: 10px;
-  background-color: #000;
+  background-color: #d7008a;
   -webkit-transition: all 0.2s linear 0s;
           transition: all 0.2s linear 0s;
 }
@@ -405,6 +429,12 @@ ul li {
 .about .section-title {
   margin: 0 0 25px;
 }
+
+.team img{
+  border-radius: 50%;
+  width: 50%;
+}
+
 .about figure {
   margin-bottom: 25px;
 }
@@ -438,6 +468,12 @@ ul li {
 .speaker p {
   margin-bottom: 5px;
 }
+
+.speaker img {
+  border-radius: 50%;
+  width: 80%;
+}
+
 .speaker img:hover {
   opacity: .7;
 }
@@ -453,11 +489,12 @@ ul li {
   
 }
 
-
-
 .inside-box {
-  border-right: 1px solid black;
+  border: none;
+  border-bottom: 1px solid black
 }
+
+
 
 
 /* 
@@ -568,7 +605,7 @@ ul li {
   padding: 15px 15px 15px 35px;
 }
 
-/* 
+/* @
  * 6.9 Section: photos
  */
 .grid {
@@ -590,7 +627,14 @@ ul li {
   width: 100%;
 }
 
+
+
 @media (min-width: 768px) {
+  .inside-box {
+    border: none;
+    border-right: 1px solid black
+  }
+
   .grid-item-sm-6 {
     width: 50%;
   }

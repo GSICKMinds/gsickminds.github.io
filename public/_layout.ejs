@@ -20,13 +20,11 @@
 
 <body>
       <nav id="site-nav"
-           class="navbar navbar-fixed-top navbar-custom">
+           class="navbar navbar-inverse navbar-fixed-top">
             <%- partial("partials/nav", {nav: public.partials._data.nav}) %>
       </nav>
 
       <%- yield %>
-
-
 
             <footer class="site-footer">
                   <%- partial("partials/footer", public.partials._data.footer) %>

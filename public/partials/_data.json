@@ -22,7 +22,30 @@
     ],
     "about": {
         "title": "Sobre nosotros",
-        "info": "GSICKMINDS es un evento organizado por el Grupo de seguridad de la Información de A Coruña (GSIC), nacido en 2009 bajo el patrocinio de la Facultad de Informática de A Coruña y la Universidad de A Coruña, con objeto de fomentar el desarrollo de sistemas de información seguros y proponer soluciones que salvaguarden la integridad y confidencialidad de los activos digitales."
+        "info": "GSICKMINDS es un evento organizado por el Grupo de seguridad de la Información de A Coruña (GSIC), nacido en 2009 bajo el patrocinio de la Facultad de Informática de A Coruña y la Universidad de A Coruña, con objeto de fomentar el desarrollo de sistemas de información seguros y proponer soluciones que salvaguarden la integridad y confidencialidad de los activos digitales.",
+        "titleTeam": "Nuestro equipo",
+        "team": [
+            {
+                "name": "Arturo Silvelo",
+                "image": "https://s.gravatar.com/avatar/2a9686e837b16d4d051ae3ad1972e842",
+                "social": [
+                    {
+                        "href": "https://twitter.com/arturosilvelo",
+                        "icon": "fa fa-twitter"
+                    }
+                ]
+            },
+            {
+                "name": "Jesús Pérez",
+                "image": "/assets/images/speakers/jesusprubio.png",
+                "social": [
+                    {
+                        "href": "https://twitter.com/jesusprubio",
+                        "icon": "fa fa-twitter"
+                    }
+                ]
+            }
+        ]
     },
     "footer": {
         "contact": {

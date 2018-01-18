@@ -1,56 +1,54 @@
 <div class="container">
     <% for(var i=0; i < speakers.length; i++) { %>
-        <div class="col-sm-12">
-            <div class="row schedule-box <%- i == 0 ? 'schedule-box-init' : ''%>">
-                <div class="col-sm-2">
-                    <div class="speaker">
-                        <figure>
-                            <img alt=""
-                                 class="img-responsive center-block"
-                                 src="<%- speakers[i].image %>">
-                        </figure>
+        <div class="row schedule-box <%- i == 0 ? 'schedule-box-init' : ''%>">
+            <div class="col-sm-2 col-xs-4">
+                <div class="speaker">
+                    <figure>
+                        <img alt=""
+                             class="img-responsive center-block"
+                             src="<%- speakers[i].image %>">
+                    </figure>
 
-                        <h4>
-                            <%- speakers[i].name %>
-                        </h4>
-                        <h4>
-                            <%- speakers[i].position %>
-                        </h4>
+                    <h4>
+                        <%- speakers[i].name %>
+                    </h4>
+                    <h4>
+                        <%- speakers[i].position %>
+                    </h4>
 
-                        <ul class="social-block">
-                            <% for (var j = 0; j < speakers[i].social.length; j++) {%>
-                                <li>
-                                    <a target="_blank"
-                                       href="<%- speakers[i].social[j].href %>">
-                                        <i class="<%- speakers[i].social[j].icon %>"></i>
-                                    </a>
-                                </li>
-                                <% } %>
+                    <ul class="social-block">
+                        <% for (var j = 0; j < speakers[i].social.length; j++) {%>
+                            <li>
+                                <a target="_blank"
+                                   href="<%- speakers[i].social[j].href %>">
+                                    <i class="<%- speakers[i].social[j].icon %>"></i>
+                                </a>
+                            </li>
+                            <% } %>
 
-                        </ul>
-                    </div>
+                    </ul>
                 </div>
-                <div class="col-sm-10">
-                    <div class="time">
-                        <time>
-                            <li class="fa fa-calendar"></li>
-                            <%- speakers[i].date %>
-                        </time>
-                        <time class="pull-right">
-                            <li class="fa fa-clock-o"></li>
-                            <%- speakers[i].time %>
-                        </time>
-                    </div>
-                    <h3>
-                        <%- speakers[i].title %>
-                    </h3>
-                    <p>
-                        <%- speakers[i].description %>
-                    </p>
-                    <p>
-                        <%- speakers[i].bio %>
-                    </p>
+            </div>
+            <div class="col-md-10 col-xs-8">
+                <div class="time">
+                    <time>
+                        <li class="fa fa-calendar"></li>
+                        <%- speakers[i].date %>
+                    </time>
+                    <time class="pull-right">
+                        <li class="fa fa-clock-o"></li>
+                        <%- speakers[i].time %>
+                    </time>
                 </div>
+                <h3>
+                    <%- speakers[i].title %>
+                </h3>
+                <p>
+                    <%- speakers[i].description %>
+                </p>
+                <p>
+                    <%- speakers[i].bio %>
+                </p>
             </div>
         </div>
         <% } %>
