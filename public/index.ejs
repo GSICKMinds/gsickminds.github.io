@@ -3,27 +3,33 @@
     <%- partial("partials/header", public.partials._data.header) %>
 </header>
 
-<section id="schedule"
-         class="section schedule">
+<span id="schedule"
+      class="anchor"></span>
+<section class="section schedule">
     <%- include("partials/events", public.partials._data.events) %>
 </section>
 
+<span id="location"
+      class="anchor"></span>
 <section id="location"
          class="section location">
     <%- partial("partials/venue", public.partials._data.venue) %>
 </section>
 
-<section id="about"
-         class="section about">
+<span id="about"
+      class="anchor"></span>
+<section class="section about">
     <%- partial("partials/about", public.partials._data.about) %>
 </section>
 
-<section id="contribution"
-         class="section contribution">
+<span id="contribution"
+      class="anchor"></span>
+<section class="section contribution">
     <%- partial("partials/contribution", public.partials._data.contribution) %>
 </section>
 
-<section id="contact"
-         class="section about">
+<span id="contact"
+      class="anchor"></span>
+<section class="section about">
     <%- partial("partials/contact", public.partials._data.contact) %>
 </section>

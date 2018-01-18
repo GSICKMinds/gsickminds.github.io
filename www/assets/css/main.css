@@ -25,13 +25,16 @@ html {
   color: #000
 }
 
+
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
   border-color: transparent;
   background-color: #d7008a
 }
-
+.fix-padding {
+  padding-top: 40px;
+}
 body {
-  padding-top: 90px;
+  padding-top: 70px;
   padding-bottom: 80px;
   color: #4e4e4e;
   font-family: 'Roboto', sans-serif;
@@ -48,6 +51,7 @@ a {
 a:focus {
   outline: none;
 }
+
 
 h1,
 h2,
@@ -159,6 +163,13 @@ ul li {
 
 .section {
   padding: 40px 0;
+}
+  .anchor{
+    display: block;
+    height: 100px; /*same height as header*/
+    margin-top: -100px; /*same height as header*/
+    visibility: hidden;
+  
 }
 
 .section-title {
@@ -285,7 +296,7 @@ ul li {
 @media (min-width: 768px) {  
   
   .section-title {
-    padding-top: 40px;
+    
     color: #d7008a;
     letter-spacing: 1px;
     margin: 0 0 60px;
@@ -423,9 +434,15 @@ ul li {
 .about .section-title {
   margin: 0 0 25px;
 }
+ 
+.team {
+  text-align: center;
+  margin-top: 20px;
+}
 
-.team img{
-  border-radius: 50%;
+.team .img-responsive {
+  margin: auto;
+  border-radius: 50%;  
   width: 50%;
 }
 
