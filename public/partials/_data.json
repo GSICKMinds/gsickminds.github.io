@@ -4,8 +4,16 @@
     },
     "nav": [
         {
-            "label": "horarios",
+            "label": "Eventos",
             "href": "#schedule"
+        },
+        {
+            "label": "Localización",
+            "href": "#location"
+        },
+        {
+            "label": "Colabora",
+            "href": "#contribution"
         },
         {
             "label": "Sobre nosotros",
@@ -34,5 +42,18 @@
         "title": "Localización",
         "address": "",
         "googlemaps": ""
+    },
+    "contribution": {
+        "title": "Colabora con nosotros",
+        "description": "En el Gsic siempre estamos buscando gente enferma. Si quieres participar en nuestra aventura, a continuación te explicamos las maneras para hacerlo.",
+        "paperTitle": "Dar una charla",
+        "paperIcon": "fa fa-file-text",
+        "sponsor": "Si eres una empresa y quieres patrocinarnos, puedes pedir más información a sponsors@gsickminds.net. Nos pondremos en contacto contigo y te enviaremos un dosier con la información.",
+        "sponsorTitle": "Patrocinanos",
+        "sponsorIcon": "fa fa-usd",
+        "paper": "Enviamos tu propuesta a cfp@gsickminds.net y nos prondremos en contacto contigo la más pronto posible.",
+        "help": "Si lo que queires es colaborar con nosotros como voluntario enviamos un correo info@gsickminds.net con el asunto voluntario.",
+        "helpTitle": "Colcabora con nosotros",
+        "helpIcon": "fa fa-users"
     }
 }
