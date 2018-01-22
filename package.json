@@ -3,11 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "gulpfile.js",
-  "dependencies": {},
+  "dependencies": {
+    "harp": "^0.25.0"
+  },
   "devDependencies": {
     "browser-sync": "^2.23.5",
-    "gulp": "^3.9.1",
-    "harp": "^0.25.0"
+    "gulp": "^3.9.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
