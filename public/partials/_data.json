@@ -75,8 +75,7 @@
         "contact": {
             "name": "GRUPO DE SEGURIDAD DE LA INFORMACIÓN DE A CORUÑA",
             "address": "C.P. 15071 A Coruña, España",
-            "phone": "(+34) 981 167 000 ext. 1304",
-            "email": "info@gsickminds.net"
+            "phone": "(+34) 981 167 000 ext. 1304"
         }
     },
     "venue": {
@@ -89,11 +88,11 @@
         "description": "En el Gsic siempre estamos buscando gente enferma. Si quieres participar en nuestra aventura, a continuación te explicamos las maneras para hacerlo.",
         "paperTitle": "Dar una charla",
         "paperIcon": "fa fa-file-text",
-        "sponsor": "Si eres una empresa y quieres patrocinarnos, puedes pedir más información a <strong>sponsors@gsickminds.net</strong>. Nos pondremos en contacto contigo y te enviaremos un dosier con la información.",
+        "sponsor": "Si eres una empresa y quieres patrocinarnos, puedes pedir más información a <strong><a href='mailto:gsicoruna@gmail.com?subject=sponsor'>gsicoruna@gmail.com</a></strong> con el asusnto sponsor. Nos pondremos en contacto contigo y te enviaremos un dosier con la información.",
         "sponsorTitle": "Patrocinanos",
         "sponsorIcon": "fa fa-usd",
-        "paper": "Enviamos tu propuesta a <strong>cfp@gsickminds.net</strong> y nos prondremos en contacto contigo la más pronto posible.",
-        "help": "Si lo que queires es colaborar con nosotros como voluntario enviamos un correo <strong>info@gsickminds.net</strong> con el asunto voluntario.",
+        "paper": "Enviamos tu propuesta a  <strong><a href='mailto:gsicoruna@gmail.com?subject=cfp'>gsicoruna@gmail.com</a></strong> con el asunto y nos prondremos en contacto contigo la más pronto posible.",
+        "help": "Si lo que queires es colaborar con nosotros como voluntario enviamos un correo <strong><a href='mailto:gsicoruna@gmail.com?subject=voluntario'>gsicoruna@gmail.com</a></strong> con el asunto voluntario.",
         "helpTitle": "Colcabora con nosotros",
         "helpIcon": "fa fa-users"
     },
@@ -105,7 +104,7 @@
                 "icon": "fa fa-twitter"
             },
             {
-                "href": "mailto:info@gisckminds.net",
+                "href": "mailto:gsicoruna@gmail.com",
                 "icon": "fa fa-envelope"
             }
         ]

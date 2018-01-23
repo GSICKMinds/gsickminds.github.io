@@ -21,13 +21,13 @@
 <body>
       <nav id="site-nav"
            class="navbar navbar-inverse navbar-fixed-top">
-            <%- partial("partials/nav") %>
+            <%- partial("partials/_nav") %>
       </nav>
 
       <%- yield %>
 
             <footer class="site-footer">
-                  <%- partial("partials/footer", public.partials._data.footer) %>
+                  <%- partial("partials/_footer", public.partials._data.footer) %>
             </footer>
 
             <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
