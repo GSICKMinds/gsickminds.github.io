@@ -31,9 +31,14 @@
         "team": [
             {
                 "name": "Diego Ferreiro",
-                "image": "/assets/images/speakers/avatar.png",
+                "image": "/assets/images/team/diego.jpg",
                 "position": "Presidente",
-                "social": []
+                "social": [
+                    {
+                        "href": "https://twitter.com/diervo",
+                        "icon": "fa fa-twitter"
+                    }
+                ]
             },
             {
                 "name": "Arturo Silvelo",
@@ -60,7 +65,7 @@
             },
             {
                 "name": "Jesús Pérez",
-                "image": "/assets/images/speakers/jesusprubio.png",
+                "image": "/assets/images/team/jesusprubio.png",
                 "position": "Vocal",
                 "social": [
                     {
@@ -85,14 +90,14 @@
     },
     "contribution": {
         "title": "Colabora con nosotros",
-        "description": "En el Gsic siempre estamos buscando gente enferma. Si quieres participar en nuestra aventura, a continuación te explicamos las maneras para hacerlo.",
+        "description": "En el <strong>GSIC</strong> siempre estamos buscando gente enferma. Si quieres participar en nuestra aventura, a continuación te explicamos las maneras para hacerlo.",
         "paperTitle": "Dar una charla",
         "paperIcon": "fa fa-file-text",
-        "sponsor": "Si eres una empresa y quieres patrocinarnos, puedes pedir más información a <strong><a href='mailto:gsicoruna@gmail.com?subject=sponsor'>gsicoruna@gmail.com</a></strong> con el asusnto sponsor. Nos pondremos en contacto contigo y te enviaremos un dosier con la información.",
+        "sponsor": "Si eres una empresa y quieres patrocinarnos, puedes pedir más información a <strong><a href='mailto:sponsor@gsickminds.net?subject=sponsor'>sponsor@gsickminds.net</a></strong> y nos pondremos en contacto contigo.",
         "sponsorTitle": "Patrocinanos",
         "sponsorIcon": "fa fa-usd",
-        "paper": "Enviamos tu propuesta a  <strong><a href='mailto:gsicoruna@gmail.com?subject=cfp'>gsicoruna@gmail.com</a></strong> con el asunto y nos prondremos en contacto contigo la más pronto posible.",
-        "help": "Si lo que queires es colaborar con nosotros como voluntario enviamos un correo <strong><a href='mailto:gsicoruna@gmail.com?subject=voluntario'>gsicoruna@gmail.com</a></strong> con el asunto voluntario.",
+        "paper": "Enviamos tu propuesta a <strong><a href='mailto:cfp@gsickminds.net?subject=Propuesta de cfp'>cfp@gsickminds.net</a></strong> y nos prondremos en contacto contigo la más pronto posible.",
+        "help": "Si lo que queires es colaborar con nosotros como voluntario enviamos un correo a <strong><a href='mailto:info@gsickminds.net?subject=voluntario'>info@gsickminds.net</a></strong>.",
         "helpTitle": "Colcabora con nosotros",
         "helpIcon": "fa fa-users"
     },
@@ -104,7 +109,7 @@
                 "icon": "fa fa-twitter"
             },
             {
-                "href": "mailto:gsicoruna@gmail.com",
+                "href": "mailto:info@gsickminds.net",
                 "icon": "fa fa-envelope"
             }
         ]

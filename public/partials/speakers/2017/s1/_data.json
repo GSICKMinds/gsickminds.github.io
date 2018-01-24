@@ -7,6 +7,10 @@
                     {
                         "href": "https://twitter.com/arturosilvelo",
                         "icon": "fa fa-twitter"
+                    },
+                    {
+                        "href": "https://github.com/silvelo",
+                        "icon": "fa fa-github"
                     }
                 ],
                 "title": "Node al limite con NestJS",
@@ -14,7 +18,7 @@
                 "description": "Introducción al framework Nest para crear aplicaciones eficientes y escalables en Node, usando como lenguaje de programación Typescript. En concreto, se implementará una pequeña API, su definición con swagger y unos test, todo ello con la ayuda de Nest.",
                 "bio": "Trabajó como desarrollador fullstack en Agora Binaria, creando apliaciones en Angular y Node.",
                 "image": "https://s.gravatar.com/avatar/2a9686e837b16d4d051ae3ad1972e842",
-                "date": "Sin Concretar",
+                "date": "1 de Febrero (19:00)",
                 "time": "30 min"
             },
             {
@@ -30,7 +34,7 @@
                 "description": "Una rapidísima introducción a la computación cuántica y como empezar a jugar con el framework QISKit, liberado recientemente. En concreto, veremos como añadir un primer algoritmo cuántico a tus aplicaciones en Node.js/JavaScript.",
                 "bio": "Trabaja como desarrollador de backend en IBM Research, ayudando a crear prototipos que muestran las últimas ideas de sus laboratorios. En otras vidas fue programador VoIP, administrador de sistemas e incluso pentester. En su tiempo libre le gusta escribir herramientas de seguridad. Organizador de GSICKMINDS y ponente en conferencias como Black Hat, Codemotion, JSDayES, Librecon, MorterueloCon o Hackmeeting.",
                 "image": "/assets/images/speakers/jesusprubio.png",
-                "date": "Sin Concretar",
+                "date": "1 de Febrero (20:00)",
                 "time": "30 min"
             }
         ]

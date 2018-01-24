@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container ">
       <div class="row">
             <div class="col-xs-12 col-sm-12">
                   <h3 class="section-title">
@@ -7,39 +7,6 @@
                   <p>
                         <%- info%>
                   </p>
-            </div>
-
-
-            <div class="col-xs-12 col-sm-12">
-                  <h3 class="section-title">
-                        <%- titleTeam %>
-                  </h3>
-                  <div class="row ">
-
-                        <% for(var i=0; i < team.length; i++) { %>
-
-                              <div class=" col-xs-4 col-sm-3 team">
-
-                                    <img alt=""
-                                         class="img-responsive"
-                                         src="<%- team[i].image %>">
-
-                                    <h4>
-                                          <%- team[i].name %>
-                                    </h4>
-                                    <span>
-                                          <%- team[i].position %>
-                                    </span>
-                                    <span>
-                                          <% for (var j = 0; j < team[i].social.length; j++) {%>
-                                                <a href="<%- team[i].social[j].href %>">
-                                                      <i class="<%- team[i].social[j].icon %>"></i>
-                                                </a>
-                                                <% } %>
-                                    </span>
-                              </div>
-                              <% } %>
-                  </div>
             </div>
       </div>
 </div>

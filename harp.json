@@ -1,6 +1,8 @@
 {
     "globals": {
         "title": "GsickMinds",
-        "infoEmail": "gsicoruna@gmail.com"
+        "infoEmail": "info@gsickminds.net",
+        "sponsorEmail": "sponsor@gsickminds.net",
+        "cfpEmail": "cfp@gsickminds.net"
     }
 }
