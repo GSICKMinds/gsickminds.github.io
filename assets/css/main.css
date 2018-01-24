@@ -25,6 +25,9 @@ html {
   color: #000
 }
 
+.contrast-background {
+  background-color: rgba(215, 0, 138, 0.1);
+}
 
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
   border-color: transparent;
