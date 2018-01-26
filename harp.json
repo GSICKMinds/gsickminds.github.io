@@ -3,6 +3,9 @@
         "title": "GsickMinds",
         "infoEmail": "info@gsickminds.net",
         "sponsorEmail": "sponsor@gsickminds.net",
-        "cfpEmail": "cfp@gsickminds.net"
+        "cfpEmail": "cfp@gsickminds.net",
+        "service": {
+            "analytics": "UA-113124464-1"
+        }
     }
 }
