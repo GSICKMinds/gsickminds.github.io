@@ -12,7 +12,8 @@
                     <div class="container">
                         <% for(var j in contents[i]._contents){ %>
                             <li>
-                                <a href="partials/speakers/<%- years[z] %>/s1/<%-contents[i]._contents[j] %>">Evento
+                                <a href="partials/speakers/<%- years[z] %>/s1/<%-contents[i]._contents[j] %>"
+                                   onclick="ga('send', 'event', 'Button', 'Click', 'Eventos Anteriores - years[z] ');">Evento
                                     <%- parseInt(j) + 1 %>
                                 </a>
                             </li>

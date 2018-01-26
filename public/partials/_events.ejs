@@ -6,12 +6,15 @@
             </h3>
         </div>
         <div class="col-xs-12 col-sm-6">
+            <!-- Cambiar event label -->
             <a class="btn btn-rodamina pull-right"
                target="_blank"
+               onclick="ga('send', 'event', 'Button', 'Click', 'Apuntarse al Evento - 2017 - s1');"
                href="https://gsickandbeers.eventbrite.es">Apuntate a este evento</a>
         </div>
     </div>
     <div class="row">
+        <!-- Cambiar Actualzar evento -->
         <% var data = public.partials.speakers["2017"].s1._data.speakers %>
             <%- partial("partials/speakers/2017/s1/speakers", data) %>
     </div>
@@ -19,6 +22,7 @@
     <div class="row">
         <div class="col-xs-12 col-sm-12">
             <a class="btn btn-rodamina pull-right btn-margin"
+               onclick="ga('send', 'event', 'Button', 'Click', 'Eventos Anteriores');"
                href="/old_events">Eventos Anteriores</a>
 
         </div>

@@ -20,6 +20,8 @@
                         <% for (var j = 0; j < speakers[i].social.length; j++) {%>
                             <li>
                                 <a target="_blank"
+                                   onclick="ga('send', 'event', 'Button', 'Click', 'Social - <%- speakers[i].social[j].href %>');"
+                            
                                    href="<%- speakers[i].social[j].href %>">
                                     <i class="<%- speakers[i].social[j].icon %>"></i>
                                 </a>

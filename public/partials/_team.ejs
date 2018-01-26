@@ -21,7 +21,9 @@
                         </span>
                         <span>
                             <% for (var j = 0; j < team[i].social.length; j++) {%>
-                                <a href="<%- team[i].social[j].href %>">
+                                <a href="<%- team[i].social[j].href %>"
+                                   target="_blank"
+                                   onclick="ga('send', 'event', 'Button', 'Click', 'Social - <%- team[i].social[j].href %>');">
                                     <i class="<%- team[i].social[j].icon %>"></i>
                                 </a>
                                 <% } %>

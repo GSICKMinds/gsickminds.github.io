@@ -9,6 +9,7 @@
                 <ul class="social-block">
                     <% for (var j = 0; j < social.length; j++) {%>
                         <a target="_blank"
+                           onclick="ga('send', 'event', 'Button', 'Click', 'Social - <%- social[j].href %>');"
                            href="<%- social[j].href %>">
                             <span class="fa-stack fa-3x">
                                 <i class="fa fa-circle fa-stack-2x"></i>
