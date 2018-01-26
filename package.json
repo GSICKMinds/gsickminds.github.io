@@ -14,7 +14,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "gulp",
     "compile": "harp compile",
-    "deploy": "npm run compile && git add . && git commit -m 'Deploy' && git push origin dev:heroku && git subtree push --prefix www origin master"
+    "pre-deploy": "npm run compile && git add . && git commit ",
+    "deploy": "git push origin dev:heroku && git push origin dev &&git subtree push --prefix www origin master"
   },
   "author": "",
   "license": "ISC"

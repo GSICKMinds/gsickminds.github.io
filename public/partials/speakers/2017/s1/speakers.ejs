@@ -1,7 +1,7 @@
 <div class="container">
     <% for(var i=0; i < speakers.length; i++) { %>
         <div class="row schedule-box <%- i == 0 ? 'schedule-box-init' : ''%>">
-            <div class="col-sm-2 col-xs-4">
+            <div class="col-sm-2 col-xs-8 col-xs-offset-2 col-sm-offset-0">
                 <div class="speaker">
                     <figure>
                         <img alt=""
@@ -29,7 +29,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-md-10 col-xs-8">
+            <div class="col-sm-10 col-xs-12">
                 <div class="time">
                     <time>
                         <li class="fa fa-calendar"></li>
