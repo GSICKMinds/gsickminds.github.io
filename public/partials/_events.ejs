@@ -1,31 +1,38 @@
-<div class="container">
-    <div class="row">
-        <div class="col-xs-12 col-sm-6">
-            <h3 class="section-title">
-                <%- title %>
-            </h3>
+<% 
+var years = Object.keys(public.partials.speakers);
+var lastYear = years[years.length - 1];
+var contents = Object.keys(public.partials.speakers[lastYear]);
+var lastContent = contents[contents.length - 1];
+var data = public.partials.speakers[lastYear][lastContent]._data.speakers;
+%>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6">
+                <h3 class="section-title">
+                    <%- title %>
+                </h3>
+            </div>
+            <div class="col-xs-12 col-sm-6">
+                <!-- Cambiar event label -->
+                <a class="btn btn-rodamina pull-right"
+                   target="_blank"
+                   onclick="ga('send', 'event', 'Button', 'Click', 'Apuntarse al Evento - <%- lastYear %> - <%- lastContent %>');"
+            
+                   href="https://gsickandbeers.eventbrite.es">Apuntate a este evento</a>
+            </div>
         </div>
-        <div class="col-xs-12 col-sm-6">
-            <!-- Cambiar event label -->
-            <a class="btn btn-rodamina pull-right"
-               target="_blank"
-               onclick="ga('send', 'event', 'Button', 'Click', 'Apuntarse al Evento - 2017 - s1');"
-               href="https://gsickandbeers.eventbrite.es">Apuntate a este evento</a>
-        </div>
-    </div>
-    <div class="row">
-        <!-- Cambiar Actualzar evento -->
-        <% var data = public.partials.speakers["2017"].s1._data.speakers %>
+        <div class="row">
+
             <%- partial("partials/speakers/2017/s1/speakers", data) %>
-    </div>
+        </div>
 
-    <div class="row">
-        <div class="col-xs-12 col-sm-12">
-            <span class="note">Todos los eventos son en castellano a no ser que se indique lo contrario</span>
-            <a class="btn btn-rodamina pull-right btn-margin"
-               onclick="ga('send', 'event', 'Button', 'Click', 'Eventos Anteriores');"
-               href="/old_events">Eventos Anteriores</a>
+        <div class="row">
+            <div class="col-xs-12 col-sm-12">
+                <span class="note">Todos los eventos son en castellano a no ser que se indique lo contrario</span>
+                <a class="btn btn-rodamina pull-right btn-margin"
+                   onclick="ga('send', 'event', 'Button', 'Click', 'Eventos Anteriores');"
+                   href="/old_events">Eventos Anteriores</a>
 
+            </div>
         </div>
     </div>
-</div>
