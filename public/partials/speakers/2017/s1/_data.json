@@ -2,6 +2,23 @@
     "speakers": {
         "speakers": [
             {
+                "name": "Laura M. Castro",
+                "social": [
+                    {
+                        "href": "https://twitter.com/lauramcastro",
+                        "icon": "fa fa-twitter"
+                    }
+                ],
+                "title": "Elixir : the not-so-hidden path to Erlang",
+                "position": "",
+                "description": "This is a short introduction to one of the newest and noisiest additions to the functional family. Chances are you have heard about Elixir before: created six years ago by José Valim, it has emerged rapidly in the Erlang ecosystem, attracting lots of attention. But what's so special about it? What's all the fuzz about? This talk will offer you a few selected sips for you to get a taste... but beware! You may want to drink all the bottle: if so, you may end up following the white rabbit down the hole and wake up in the Erlang wonderland.",
+                "bio": "I was born in Madrid (Spain) in 1980 and moved to Galicia, located in the north west coast of the country, when I was in my teens. I went to high school in Santiago de Compostela and attended college in A Coruña, where I now live and work. I have also lived for short periods of time in the US (Houston, Texas) and Sweden (Göteborg).<span class='read-more-target'><br><br>I am an Associate Professor at the University of A Coruña, where I have been teaching since 2005. At the moment, I am a lecturer on Software Architecture and Software Validation.<br><br>I also perform research in the areas of software testing (automated, model and property-based testing), applied to software in general, and distributed, concurrent, functional systems in particular (mainly working with Erlang/OTP, now starting to dive into Elixir). I am a member of the MADS (Models and Applications of Distributed Systems) research group.<br><br>I love dancing and solving puzzles. I am a constant learner. I am a light traveler, always keen on going to new places. I don't read as much as I would like to, and I watch^H^Hused to watch tons of TV series (before my son was born).<br><br>I believe we can make the world a better place for everyone without destroying it. I am committed to it.",
+                "image": "/assets/images/speakers/lauramcastro.jpg",
+                "date": "1 de Febrero (18:30)",
+                "time": "30 min",
+                "id": "lauramcastro"
+            },
+            {
                 "name": "Arturo Silvelo",
                 "social": [
                     {
@@ -19,7 +36,8 @@
                 "bio": "Trabajó como desarrollador fullstack en Agora Binaria, creando apliaciones en Angular y Node.",
                 "image": "https://s.gravatar.com/avatar/2a9686e837b16d4d051ae3ad1972e842",
                 "date": "1 de Febrero (19:00)",
-                "time": "30 min"
+                "time": "30 min",
+                "id": "arturosilvelo"
             },
             {
                 "name": "Jesús Pérez ",
@@ -34,8 +52,9 @@
                 "description": "Una rapidísima introducción a la computación cuántica y como empezar a jugar con el framework QISKit, liberado recientemente. En concreto, veremos como añadir un primer algoritmo cuántico a tus aplicaciones en Node.js/JavaScript.",
                 "bio": "Trabaja como desarrollador de backend en IBM Research, ayudando a crear prototipos que muestran las últimas ideas de sus laboratorios. En otras vidas fue programador VoIP, administrador de sistemas e incluso pentester. En su tiempo libre le gusta escribir herramientas de seguridad. Organizador de GSICKMINDS y ponente en conferencias como Black Hat, Codemotion, JSDayES, Librecon, MorterueloCon o Hackmeeting.",
                 "image": "/assets/images/speakers/jesusprubio.png",
-                "date": "1 de Febrero (20:00)",
-                "time": "30 min"
+                "date": "1 de Febrero (19:30)",
+                "time": "30 min",
+                "id": "jesusprubio"
             }
         ]
     }

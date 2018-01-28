@@ -31,6 +31,7 @@
                     </ul>
                 </div>
             </div>
+
             <div class="col-sm-10 col-xs-12">
                 <div class="time">
                     <time>
@@ -48,9 +49,21 @@
                 <p>
                     <%- speakers[i].description %>
                 </p>
-                <p>
-                    <%- speakers[i].bio %>
-                </p>
+                <% if (speakers[i].bio.indexOf('read-more-target') !== -1) {%>
+                    <div>
+                        <input type="checkbox"
+                               class="read-more-state"
+                               id="<%- speakers[i].id %>" />
+
+                        <p class="read-more-wrap">
+                            <%- speakers[i].bio %>
+                        </p>
+                        <label for="<%- speakers[i].id %>"
+                               class="read-more-trigger"></label>
+                    </div>
+                    <% } else {%>
+                        <%- speakers[i].bio %>
+                            <% } %>
             </div>
         </div>
         <% } %>
