@@ -85,8 +85,10 @@
     },
     "venue": {
         "title": "Localización",
-        "address": "",
-        "googlemaps": ""
+        "address": "Rúa Alfredo Vicenti, 39, 15004 A Coruña",
+        "web": "https://www.instagram.com/laolimpicabar/",
+        "phone": "881 01 06 08",
+        "googlemaps": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11601.931093101086!2d-8.4128181!3d43.3669286!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6dd7baef8f49bf23!2sLa+Ol%C3%ADmpica!5e0!3m2!1ses!2ses!4v1517299061216"
     },
     "contribution": {
         "title": "Colabora con nosotros",
