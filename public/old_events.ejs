@@ -7,19 +7,24 @@
                 <%- years[z] %>
             </h4>
             </li>
-            <% var contents = public.partials.speakers[years[z]] %>
-                <% for(var i in contents){ %>
-                    <div class="container">
-                        <% for(var j in contents[i]._contents){ %>
-                            <li>
-                                <a href="partials/speakers/<%- years[z] %>/s1/<%-contents[i]._contents[j] %>"
-                                   onclick="ga('send', 'event', 'Button', 'Click', 'Eventos Anteriores - years[z] ');">Evento
-                                    <%- parseInt(j) + 1 %>
-                                </a>
-                            </li>
-                            <% }%>
-                    </div>
-                    <% }%>
-
+            <% 
+                var contents = public.partials.speakers[years[z]];
+                var eventNumber = 1;
+                for(var i in contents){ %>
+                <div class="container">
+                    <% for(var j in contents[i]._contents){ %>
+                        <li>
+                            <a href="partials/speakers/<%- years[z] %>/<%-i%>/<%-contents[i]._contents[j] %>" onclick="ga('send', 'event', 'Button', 'Click', 'Eventos Anteriores - years[z] ');">Evento
+                                <%- eventNumber %>
+                            </a>
+                        </li>
                         <% }%>
+                </div>
+                <% 
+                        eventNumber++;
+                        
+                    }
+                    %>
+
+                    <% }%>
 </div>

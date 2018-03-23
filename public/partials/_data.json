@@ -1,6 +1,7 @@
 {
     "events": {
-        "title": "Proximos Eventos"
+        "title": "Proximos Eventos",
+        "subtitle": "El próximo evento sera el 12 de abril."
     },
     "nav": [
         {

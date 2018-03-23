@@ -11,14 +11,16 @@ var data = public.partials.speakers[lastYear][lastContent]._data.speakers;
                 <h3 class="section-title">
                     <%- title %>
                 </h3>
+                <% if (subtitle) {%>
+                    <h3>
+                        <%- subtitle %>
+                    </h3>
+                    <% } %>
             </div>
             <div class="col-xs-12 col-sm-6">
                 <!-- Cambiar event label -->
-                <a class="btn btn-rodamina pull-right"
-                   target="_blank"
-                   onclick="ga('send', 'event', 'Button', 'Click', 'Apuntarse al Evento - <%- lastYear %> - <%- lastContent %>');"
-            
-                   href="https://gsickandbeers.eventbrite.es">Apuntate a este evento</a>
+                <a class="btn btn-rodamina pull-right" target="_blank" onclick="ga('send', 'event', 'Button', 'Click', 'Apuntarse al Evento - <%- lastYear %> - <%- lastContent %>');"
+                    href="http://gsickminds.eventbrite.com/">Apuntate a este evento</a>
             </div>
         </div>
         <div class="row">
@@ -29,9 +31,8 @@ var data = public.partials.speakers[lastYear][lastContent]._data.speakers;
         <div class="row">
             <div class="col-xs-12 col-sm-12">
                 <span class="note">Todos los eventos son en castellano a no ser que se indique lo contrario</span>
-                <a class="btn btn-rodamina pull-right btn-margin"
-                   onclick="ga('send', 'event', 'Button', 'Click', 'Eventos Anteriores');"
-                   href="/old_events">Eventos Anteriores</a>
+                <a class="btn btn-rodamina pull-right btn-margin" onclick="ga('send', 'event', 'Button', 'Click', 'Eventos Anteriores');"
+                    href="/old_events">Eventos Anteriores</a>
 
             </div>
         </div>

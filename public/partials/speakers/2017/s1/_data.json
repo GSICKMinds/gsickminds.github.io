@@ -9,6 +9,7 @@
                         "icon": "fa fa-twitter"
                     }
                 ],
+                "slides": "https://www.slideshare.net/lauramcastro/elixir-the-notsohidden-path-to-erlang",
                 "title": "Elixir : the not-so-hidden path to Erlang",
                 "position": "",
                 "description": "This is a short introduction to one of the newest and noisiest additions to the functional family. Chances are you have heard about Elixir before: created six years ago by José Valim, it has emerged rapidly in the Erlang ecosystem, attracting lots of attention. But what's so special about it? What's all the fuzz about? This talk will offer you a few selected sips for you to get a taste... but beware! You may want to drink all the bottle: if so, you may end up following the white rabbit down the hole and wake up in the Erlang wonderland.",
@@ -30,6 +31,7 @@
                         "icon": "fa fa-github"
                     }
                 ],
+                "slides": "https://es.slideshare.net/ArturoSilveloPallin/node-al-limite-con-nestjs/",
                 "title": "Node al limite con NestJS",
                 "position": "",
                 "description": "Introducción al framework Nest para crear aplicaciones eficientes y escalables en Node, usando como lenguaje de programación Typescript. En concreto, se implementará una pequeña API, su definición con swagger y unos test, todo ello con la ayuda de Nest.",
