@@ -114,6 +114,10 @@
             {
                 "href": "mailto:info@gsickminds.net",
                 "icon": "fa fa-envelope"
+            },
+            {
+                "href": "https://t.me/gsickminds",
+                "icon": "fa fa-telegram"
             }
         ]
     }
