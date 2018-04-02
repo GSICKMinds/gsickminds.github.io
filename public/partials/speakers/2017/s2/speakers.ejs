@@ -1,52 +1,20 @@
 <div class="container">
-    <% for(var i=0; i < speakers.length; i++) { %>
-        <div class="row schedule-box <%- i == 0 ? 'schedule-box-init' : ''%>">
-            <div class="col-sm-2 col-xs-8 col-xs-offset-2 col-sm-offset-0">
-                <div class="speaker">
-                    <figure>
-                        <img alt=""
-                             class="img-responsive center-block"
-                             src="<%- speakers[i].image %>">
-                    </figure>
-
-                    <h4>
-                        <%- speakers[i].name %>
-                    </h4>
-                    <h4>
-                        <%- speakers[i].position %>
-                    </h4>
-
-                    <ul class="social-block">
-                        <% for (var j = 0; j < speakers[i].social.length; j++) {%>
-                            <li>
-                                <a target="_blank"
-                                   onclick="ga('send', 'event', 'Button', 'Click', 'Social - <%- speakers[i].social[j].href %>');"
-                            
-                                   href="<%- speakers[i].social[j].href %>">
-                                    <i class="<%- speakers[i].social[j].icon %>"></i>
-                                </a>
-                            </li>
-                            <% } %>
-
-                    </ul>
-                </div>
-            </div>
-
-            <div class="col-sm-10 col-xs-12">
+    <div class="row">
+        <% for(var i=0; i < talks.length; i++) { %>
+            <div class="col-12">
                 <div class="time">
                     <time>
                         <li class="fa fa-calendar"></li>
-                        <%- speakers[i].date %>
+                        <%- talks[i].date %>
                     </time>
                     <time class="pull-right">
                         <li class="fa fa-clock-o"></li>
-                        <%- speakers[i].time %>
+                        <%- talks[i].time %>
                     </time>
                 </div>
-                <% if (speakers[i].slides) {%>
+                <% if (talks[i].slides) {%>
                     <div class="time">
-                        <a target="_blank"
-                           href="<%- speakers[i].slides %>">
+                        <a target="_blank" href="<%- talks[i].slides %>">
                             <i class="fa fa-slideshare"></i>
                             Slides
                         </a>
@@ -54,27 +22,51 @@
                     <%}%>
 
                         <h3>
-                            <%- speakers[i].title %>
+                            <%- talks[i].title %>
                         </h3>
                         <p>
-                            <%- speakers[i].description %>
+                            <%- talks[i].description %>
                         </p>
-                        <% if (speakers[i].bio.indexOf('read-more-target') !== -1) {%>
-                            <div>
-                                <input type="checkbox"
-                                       class="read-more-state"
-                                       id="<%- speakers[i].id %>" />
 
-                                <p class="read-more-wrap">
-                                    <%- speakers[i].bio %>
-                                </p>
-                                <label for="<%- speakers[i].id %>"
-                                       class="read-more-trigger"></label>
-                            </div>
-                            <% } else {%>
-                                <%- speakers[i].bio %>
-                                    <% } %>
             </div>
-        </div>
-        <% } %>
+
+            <% for(var j=0; j < talks[i].speakers.length; j++) { %>
+                <div class="row">
+                    <div class="col-sm-2 col-xs-8 col-xs-offset-2 col-sm-offset-0">
+                        <div class="speaker">
+                            <figure>
+                                <img alt="" class="img-responsive center-block" src="<%- talks[i].speakers[j].image %>">
+                            </figure>
+                            <ul class="social-block">
+                                <% for (var p = 0; p < talks[i].speakers[j].social.length; p++) {%>
+                                    <li>
+                                        <a target="_blank" onclick="ga('send', 'event', 'Button', 'Click', 'Social - <%- talks[i].speakers[j].social[p].href %>');"
+                                            href="<%- talks[i].speakers[j].social[p].href %>">
+                                            <i class="<%- talks[i].speakers[j].social[p].icon %>"></i>
+                                        </a>
+                                    </li>
+                                    <% } %>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-10 col-xs-12">
+                        <h4>
+                            <%- talks[i].speakers[j].name %>
+                        </h4>
+                        <h6>
+                            <%- talks[i].speakers[j].position %>
+                        </h6>
+                        <p>
+
+                            <%- talks[i].speakers[j].bio %>
+
+                        </p>
+
+                    </div>
+                </div>
+                <%  } %>
+                    <%  } %>
+
+    </div>
 </div>

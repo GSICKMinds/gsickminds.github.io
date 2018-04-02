@@ -1,21 +1,39 @@
 {
     "speakers": {
-        "speakers": [
+        "speakers": [],
+        "talks": [
             {
-                "name": "Ana Cidre",
-                "social": [
+                "speakers": [
                     {
-                        "href": "https://twitter.com/AnaCidre_",
-                        "icon": "fa fa-twitter"
+                        "name": "Ana Cidre",
+                        "social": [
+                            {
+                                "href": "https://twitter.com/AnaCidre_",
+                                "icon": "fa fa-twitter"
+                            }
+                        ],
+                        "position": "",
+                        "bio": "Ana Cidre es una Women Techmaker Lead, organizadora de GDG Vigo y fundadora de GalsTech. No es una programadora normal: tiene un grado en Bellas Artes y un Master en negocios y economía internacional, pero siempre le ha encantado el mundo tecnológico. Ahora es una desarrolladora de software especializada en Angular y co-fundadora de codestrand.",
+                        "image": "https://pbs.twimg.com/profile_images/636844985459994624/7oBQnCAW_400x400.jpg"
+                    },
+                    {
+                        "name": "Verónica Pérez Duro",
+                        "social": [
+                            {
+                                "href": "https://twitter.com/veropduro",
+                                "icon": "fa fa-twitter"
+                            }
+                        ],
+                        "position": "",
+                        "bio": "es una ingeniera informática y co-organizadora de GalsTech. En su afán de convertirse en super héroe se ha creado una doble vida: por el día se dedica a la gestión de proyectos y por la noche al desarrollo de software en Angular.",
+                        "image": "https://pbs.twimg.com/profile_images/922482065794314242/c-A7JPK8_400x400.jpg"
                     }
                 ],
                 "title": "¿Cómo crear un aplicación con Angular en menos de 5 minutos?",
-                "position": "",
                 "description": "Podéis ver en directo cómo creamos una aplicación muy sencilla en Angular, en un tiempo muy reducido y casi sin conocimientos previos. Después revisaremos juntos los conceptos básicos de Angular.",
-                "bio": "Ana Cidre es una Women Techmaker Lead, organizadora de GDG Vigo y fundadora de GalsTech. No es una programadora normal: tiene un grado en Bellas Artes y un Master en negocios y economía internacional, pero siempre le ha encantado el mundo tecnológico. Ahora es una desarrolladora de software especializada en Angular y co-fundadora de codestrand.",
-                "image": "https://pbs.twimg.com/profile_images/636844985459994624/7oBQnCAW_400x400.jpg",
                 "date": "12 de Abril (18:30)",
                 "time": "30 min",
+                "slides": "",
                 "id": "anacidre"
             }
         ]

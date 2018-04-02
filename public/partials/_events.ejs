@@ -4,6 +4,7 @@ var lastYear = years[years.length - 1];
 var contents = Object.keys(public.partials.speakers[lastYear]);
 var lastContent = contents[contents.length - 1];
 var data = public.partials.speakers[lastYear][lastContent]._data.speakers;
+var url = "partials/speakers/" + lastYear + "/" + lastContent + "/" + "speakers";
 %>
     <div class="container">
         <div class="row">
@@ -25,7 +26,7 @@ var data = public.partials.speakers[lastYear][lastContent]._data.speakers;
         </div>
         <div class="row">
 
-            <%- partial("partials/speakers/2017/s1/speakers", data) %>
+            <%- partial(url, data) %>
         </div>
 
         <div class="row">
