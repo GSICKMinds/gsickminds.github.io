@@ -35,6 +35,27 @@
                 "time": "30 min",
                 "slides": "",
                 "id": "anacidre"
+            },
+            {
+                "title": " ¿Conoces a LilyPad?",
+                "speakers": [
+                    {
+                        "bio": "Ingeniera de Caminos, Canales y Puertos. Investigadora especializada en modelos de elección discreta aplicados al ámbito portuario. Maker por diversión ;)",
+                        "name": "Ana Martínez Pardo",
+                        "social": [
+                            {
+                                "href": "https://twitter.com/ThisIsAMPlab",
+                                "icon": "fa fa-twitter"
+                            }
+                        ],
+                        "image": "/assets/images/speakers/avatar.png"
+                    }
+                ],
+                "description": "Empezaremos con algo de historia sobre la tecnología 'wearable', seguida de la presentación de algunas de las formas más curiosas que han surgido para traer interactividad a la ropa en los últimos años. Para finalizar, un tutorial para coser un circuito que controle tanto LEDs como sensores usando una placa LilyPad Arduino.",
+                "date": "12 de Abril (19:00)",
+                "time": "30 min",
+                "slides": "",
+                "id": "pardo"
             }
         ]
     }
